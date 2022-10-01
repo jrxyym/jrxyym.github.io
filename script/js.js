@@ -65,7 +65,7 @@ if(minute >= 40){
     tm = minute - 40
 }else{
     th = hour - 1
-    tm = minute - 20
+    tm = minute + 20
 }
 $("#spsj").html(`${month}-${zero(day)} ${zero(th)}:${zero(tm)}`)
 //结束时间 加3个小时
