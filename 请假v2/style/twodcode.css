@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+}
+#qjxx{  /*请假信息*/
+    color: rgba(114,117,130,1);
+    font-weight: normal;
+    border-bottom:none;
+}
+#hyewm{     /*核验二维码*/
+    color: rgba(61,153,247,0.9);
+    font-weight: bold;
+    border-bottom: 3px solid rgba(61,153,247,0.9);
+}
+#twod{  /*二维码框*/
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 88px);
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 3px 16px rgba(33, 33, 33, 0.5);
+}
+.twodi{     /*二维码图片*/
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+#yzzw{    /*验证文字*/
+    position: absolute;
+    top: 390px;
+    left: calc(50% - 110px);
+    font-size: 15px;
+}
+#dqsj{      /*当前时间*/
+    position: absolute;
+    top: 430px;
+    left: calc(50% - 150px);
+    background-color: rgba(60,157,249,1);
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 4px;
+    border-radius: 20px;
+}
