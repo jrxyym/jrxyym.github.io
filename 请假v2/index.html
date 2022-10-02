@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/css.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <title>请假详情</title>
+</head>
+<body>
+    <div id="top">
+        <span id="qjxx">请假信息</span>
+        <span id="hyewm">核验二维码</span>
+    </div>
+    <div id="two">
+        <img id="wenhao" src="./img/问号.png"/>
+        <span id="rhxj">如何销假？</span>
+    </div>
+    <div id="three">
+        <img id="dui" src="./img/对.png" />
+        <span id="sp">审批已通过</span>
+        <div id="zzxjz">正在休假中</div>
+        <div id="grxx">个人信息 ></div>
+    </div>
+    <!-- 滚动 -->
+    <div id="scroll">
+        <div id="scroll-outer" class="scroll__outer">
+            <div id="scroll-inner" class="scroll__inner">
+              <div class="scroll__text" id="first"></div>
+              <div class="scroll__text" id="last-text"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 当前时间 -->
+    <div id="four">当前时间:2022-04-02 17:51:50</div>
+    <!-- 请假类型 -->
+    <div id="five">
+        <div class="abs lab left_len" id="qjlx">请假类型:</div><div class="abs" id="sj">事假</div>
+        <div class="abs lab" id="xylx">需要离校:</div><div class="abs" id="s">是</div>
+        <div class="abs lab left_len" id="xjgz">销假规则:</div><div class="abs" id="lx">离校、非离校请假需要销假 <span class="ck" id="gzck">查看 ></span></div>
+        <div class="abs lab left_len" id="sjxjsj">实际休假时间:</div><div class="abs" id="_">-</div>
+    </div>
+
+    <div id="seven">
+        <div class="abs left_len title">我的 请假申请</div>
+        <div class="abs lab left_len" id="kssj">开始时间:</div><div class="abs left_len2" id="kssj2">04-02 17:30</div>
+        <div class="abs lab left_len" id="jssj">结束时间:</div><div class="abs left_len2" id="jssj2">04-02 18:30</div>
+        <div class="abs lab left_len splc" >审批流程:</div><div class="abs left_len2 splc">共1步 <span class="ck" id="lcck">查看 ></span></div>
+        <div class="abs lab left_len qjyy" >请假原因:</div><div class="abs left_len2 qjyy">外出有事</div>
+        <div class="abs lab left_len fqwz" >发起位置:</div><div class="abs left_len2 fqwz" id="wz">广东省广州市番禺区小谷围街道大学城广药路</div>
+        <div class="abs lab left_len csr" >抄送人:</div><div class="abs left_len2 csr">无</div>
+        <div class="abs lab left_len ssxx" >宿舍信息:</div><div class="abs left_len2 ssxx">大学城校区学生宿舍楼</div>
+        <div class="abs left_len" id="cn">本人承诺填写的信息真实有效，并对本次提交请假的信息真实性负责。</div>
+        <span id="time_len">3小时30分钟</span>
+    </div>
+
+    <div id="nine">
+        <div class="abs left_len title">审批流程记录</div>
+        <div class="abs left_len" id="fqr"><img src="./img/蓝圈.png" class="quan"> 李梓涵 - 发起申请</div><div class="abs lab" id="fqsj">04-02 11:54</div>
+        <div class="abs left_len" id="spr"><img src="./img/绿圈.png" class="quan"> 一级:&nbsp; 李田婷 - 审批<span id="tg">通过</span></div><div class="abs lab" id="spsj">04-02 17:34</div>
+        <div id="spyj">审批意见: 无</div>
+    </div>
+
+    <table>
+        <tr><td class="tdo" id="zf">转发</td><td class="tdo" id="ch">撤回</td><td id="qxj">去销假</td></tr>
+    </table>
+    <!-- 信息显示框 -->
+    <div id="infoBox"></div>
+
+
+
+</body>
+<script src="./script/public.js"></script>
+<script src="./script/js.js"></script>
+</html>
