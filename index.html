@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到今日校园请假页面模拟</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 100px;
+        }
+        #sm{    /*声明*/
+            padding-left: 30px;
+            font-size: 30px;
+        }
+        #content{
+            font-size: 24px;
+            color: red;
+            padding-left: 20px;
+            padding-right: 16px;
+            line-height: 40px;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+        .btn{
+            width: 300px;
+            height: 50px;
+            background-color: rgba(60,157,249,0.8);
+            margin-top: 24px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 3px solid rgba(42, 149, 249,1);
+            margin-left: calc(50% - 150px);
+            font-size: 28px;
+            padding-top: 4px;
+            text-align: center;
+            color: white;
+        }
+        .btn:hover{
+            background-color: transparent;
+            color: rgba(42, 149, 249,1);
+        }
+    </style>
+</head>
+<body>
+    <h1>今日校园请假模拟</h1>
+    <div id="sm">声明：</div>
+    <div id="content">&emsp;&emsp;您即将访问的是今日校园的请假系统模拟页面，该页面的内容仅用于学习，切勿用于非法途径，如有违法，后果自负。</div>
+    <div id="new" class="btn">新 版</div>
+    <div id="old" class="btn">旧 版</div>
+</body>
+<script>
+    document.getElementById('new').onclick = ()=>{
+        open("./请假v2")
+    }
+    document.getElementById('old').onclick = ()=>{
+        open("./请假v1")
+    }
+</script>
+</html>
