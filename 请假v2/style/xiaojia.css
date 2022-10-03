@@ -1,0 +1,72 @@
+body{
+    background-color: #f6f7f9;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+#fj{    /*附件*/
+    background-color: white;
+    width: 104%;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 130px;
+}
+#xing{      /*红星*/
+    color: red;
+}
+#camera{    /*相机框*/
+    margin-left: 18px;
+    margin-top: 12px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(189,190,194,1);
+    color: rgba(180,180,180,1);
+    border-radius: 8px;
+    text-align: center;
+}
+#xji{   /*相机图标*/
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
+#imgnum{   /*附件数量*/
+    font-size: 14px;
+    font-weight: bold;
+}
+#dingwei{   /*定位*/
+    margin-bottom: 4px;
+}
+#dw{ /*定位*/
+    width: 101.2%;
+    margin-left: -8px;
+    background-color: white;
+    margin-top: 14px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+#loc{   /*位置*/
+    color: rgba(180,180,180,1);
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+#reloc{     /*重新定位*/
+    position: absolute;
+    top: 170px;
+    right: 20px;
+    font-size: 13px;
+    color: rgba(61,153,247,0.9);
+}
+#confirm{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    height: 36px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(61,153,247,0.9);
+    padding-top: 10px;
+    width: 106.5%;
+    margin-left: -8px;
+}

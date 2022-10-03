@@ -1,0 +1,473 @@
+body{   /*全局*/
+    text-align: center;
+    color: rgba(114,117,130,1);
+    font-size: 14px;
+    background-color: rgba(240,245,247,1);
+    height: 805px;
+}
+#top{   /*顶部标题*/ 
+    position: fixed;
+    padding-top: 14px;
+    height: 32px;
+    background-color: white;
+    margin-left: -8px;
+    margin-top: -8px;
+    z-index: 1; /*置于最顶层*/
+    width: 100%;
+    font-size: 15px;
+}
+#qjxx{  /*请假信息*/
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;    /*下划线距离*/
+    
+    color: rgba(61,153,247,0.9);
+    font-weight: bold;
+    border-bottom: 3px solid rgba(61,153,247,0.9);
+}
+#hyewm{     /*核验二维码*/
+    margin-left: 40px;
+    margin-right: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;    /*下划线距离*/
+}
+
+#two{   /*如何销假*/
+    background-color: rgba(246,153,9,1);
+    height: 18px;
+    color: white;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 2px;
+    margin-left: -8px;
+    width: 104%;
+}
+#wenhao{    /*问号*/
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+#three{ /*滚动条*/
+    background-color: rgba(16,212,98,1);
+    background: -webkit-linear-gradient(top, rgb(12, 156, 74), rgba(19,235,110,1));
+    height: 80px;
+    color: white;
+    font-size: 16px;
+    padding-top: 8px;
+    margin-left: -8px;
+    width: 104%;
+}
+
+#scroll{        /*滚动框*/
+    margin-top: -5px;
+    margin-left: -8px;
+    width: 104%;
+}
+.pxsbx{     /*平行四边形*/
+    width: 40px;
+    height: 26px;
+    padding-left: 10px;
+}
+/* 滚动---------------------- */
+.scroll__outer {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    color: #000;
+    width: 100%;
+    height: 36px;
+}
+.scroll__inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+.scroll__text {
+    padding-right: 20px;
+    white-space: nowrap;
+}
+/* 滚动---------------------- */
+
+#dui{   /*对*/
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+}
+#sp{    /*审批已通过*/
+    letter-spacing: 2px;
+}
+#zzxjz{ /*正在休假中*/
+    color: white;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+#grxx{  /*个人信息*/
+    position: absolute;
+    right: 15px;
+    top: 78px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+#four{  /*当前时间*/
+    position: relative;
+    background-color: rgba(125,128,125,0.8);
+    color: white;
+    border-radius: 8px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -31px;
+    font-size: 12px;
+}
+
+#five{
+    margin-top: -16px;
+    font-size: 12.5px;
+    background-color: white;
+    padding-bottom: 2px;
+    margin-left: -8px;
+    width: 104%;
+    height: 100px;
+}
+.left_len{  /*距离左边的距离*/
+    left: 22px;
+}
+.abs{    /*绝对定位*/
+    position: absolute;
+}
+.lab{   /*说明文字*/
+    color: rgba(170,170,170,1);
+    font-size: 12.5px;
+}
+#qjlx{  /*请假类型*/
+    top: 180px;
+}
+#xylx{  /*需要离校*/
+    left: 200px;
+    top: 180px;
+}
+#sj{    /*事假*/
+    left: 90px;
+    top: 180px;
+}
+#s{ /*是*/
+    left: 265px;
+    top: 180px;
+}
+#xjgz{  /*销假规则*/
+    top: 205px;
+}
+#lx{    /*离校非离校*/
+    left: 90px;
+    top: 205px;
+    color: rgba(240,159,52,1);
+}
+.ck{    /*查看*/
+    color: rgba(61,153,247,0.9);
+}
+#sjxjsj{    /*实际休假时间*/
+    top: 230px;
+}
+#_{
+    left: 120px;
+    top: 230px;
+}
+
+
+#seven{
+    margin-top: 14px;
+    background-color: white;
+    font-size: 12.5px;
+    margin-left: -8px;
+    width: 104%;
+    height: 270px;
+}
+.title{     /*我的请假申请*/
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 8px;
+}
+#kssj{  /*开始时间*/
+    margin-top: 40px;
+}
+.left_len2{
+    left: 90px;
+}
+#kssj2{   /*开始时间*/
+    margin-top: 40px;
+    font-weight: bolder;
+}
+#jssj{  /*结束时间*/
+    margin-top: 65px;
+}
+#jssj2{   /*结束时间*/
+    margin-top: 65px;
+    font-weight: bolder;
+}
+.splc{  /*审批流程*/
+    margin-top: 90px;
+}
+.qjyy{  /*请假原因*/
+    margin-top: 115px;
+}
+.fqwz{  /*发起位置*/
+    margin-top: 140px;
+}
+#wz{  /*位置*/ 
+    color: rgba(61,153,247,0.9);
+}
+.csr{   /*抄送人*/
+    margin-top: 165px;
+}
+.ssxx{  /*宿舍信息*/ 
+    margin-top: 190px;
+}
+#cn{    /*承诺*/
+    text-align: left;
+    margin-top: 215px;
+    margin-right: 22px;
+    color: rgba(240,159,52,1);
+}
+#time_len{  /*显示总时长*/
+    position: absolute;
+    right: 25px;
+    margin-top: 40px;
+    background-color: rgba(237,244,255,1);
+    border: 1.5px solid rgba(171,203,244,1);
+    color: rgba(46,153,237,1);
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#nine{
+    font-size: 12.5px;
+    background-color: white;
+    margin-left: -8px;
+    width: 104%;
+    margin-top: 14px;
+    height: 160px;
+}
+#fqr{   /*发起人*/
+    margin-top: 40px;
+}
+#spr{   /*审批人*/
+    margin-top: 78px;
+}
+#fqsj{  /*发起时间*/
+    margin-top: 40px;
+    right: 20px;
+}   
+#spsj{  /*审批时间 */
+    margin-top: 78px;
+    right: 20px;
+}
+.quan{  /*圆圈*/
+    width: 19px;
+    height: 19px;
+    vertical-align:middle;
+}
+#tg{
+    color: rgba(59,207,139,1);
+}
+#spyj{  /*审批意见*/
+    position:absolute;
+    left: 48px;
+    background-color: rgba(240,245,247,1);
+    width: 320px;
+    height: 23px;
+    margin-top: 110px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid rgba(220,220,220,1);
+    border-radius: 4px;
+    color: rgba(170,170,170,1);
+}
+
+
+table{
+    position:fixed;
+    background-color: white;
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    height: 50px;
+    bottom: 0px;
+    border-collapse: collapse;
+    margin-left: -8px;
+    width: 100%;
+}
+td{
+    width: 33%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.tdo{
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    background-color: white;
+}
+.tdo:hover{
+    color: white;
+    background-color: rgba(60,157,249,1);
+}
+#qxj{   /*去销假*/
+    color: white;
+    background-color: rgba(60,157,249,1);
+}
+#qxj:hover{
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    background-color: white;
+    color: rgba(114,117,130,1);
+}
+
+/* 点开个人信息之后的页面 */
+.bgc{       /*半透明背景*/
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: -8px;
+    width: 104%;
+    z-index: 1;
+}
+#pInfoBox{      /*个人信息内部框*/
+    width: 300px;
+    height: 364px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 230px;
+    margin-left: calc(50% - 154px);
+    color: rgba(106,108,120,1);
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+}
+#pit{   /*个人信息标题*/
+    text-align: center;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.info{  /*详细信息*/
+    margin-left: 20px;
+    font-size: 16px;
+}
+#cha{   /*叉*/
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% + 110px);
+    top: 245px;
+    cursor:pointer;
+}
+
+#alertBox{      /*消息提示框*/
+    position: absolute;
+    margin-top: 300px;
+    margin-left: calc(50% - 160px);
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    border-radius: 20px;
+}
+.boxTitle{   /*提示框标题*/
+    margin-top: 20px;
+    margin-bottom: 24px;
+    color: rgba(73,77,86,1);
+    font-size: 18px;
+    font-weight: bold;
+}
+.boxContent{    /*提示框内容*/
+    line-height: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+}
+#know{      /*知道了按钮*/
+    font-size: 16px;
+    color: rgba(73,150,230,1);
+    margin-top: 8px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(230,230,230,1);
+    padding-bottom: 16px;
+    height: 23px;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#know:hover{      /*知道了按钮*/
+    background-color: rgba(230,230,230,1);
+}
+#js{      /*角色*/
+    color: rgba(73,150,230,0.8);
+    border: 1.5px solid rgba(73,150,230,0.7);
+    border-radius: 5px;
+    width: 120px;
+    margin-bottom: 2px;
+    margin-left: 24px;
+    margin-top: 2px;
+    padding-left: 8px;
+}
+#user{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+#fxi{   /*分享图标*/
+    padding-top: 20px;
+    padding-left: 280px;
+    width: 60px;
+    height: 70px;
+}
+#fx{    /*分享*/
+    margin-top: 32px;
+    color: white;
+    font-size: 24px;
+}
+#back{  /*撤回*/
+    position: absolute;
+    width: 350px;
+    height: 90px;
+    background-color: white;
+    left: calc(50% - 180px);
+    border-radius: 10px;
+    font-size: 18px;
+    bottom: 70px;
+    font-size: 16px;
+}
+#backdel{   /*撤回并删除*/
+    padding-top: 10px;
+    height: 35px;
+    color: rgba(235,83,16,1);
+    border-bottom: 1px solid rgba(230,230,230,1);
+}
+#backre{    /*撤回并重新编辑*/
+    padding-top: 10px;
+    height: 35px;
+    color: rgba(73,150,230,1);
+}
+#cancel{    /*删除*/
+    position: absolute;
+    bottom: 10px;
+    width: 350px;
+    height: 36px;
+    background-color: white;
+    color: rgba(73,150,230,1);
+    left: calc(50% - 180px);
+    border-radius: 10px;
+    font-size: 18px;
+    padding-top: 10px;
+}
